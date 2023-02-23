@@ -1,6 +1,7 @@
 const data = {
   products: [
     {
+      _id: '1',
       name: 'Dragon',
       slug: 'dragon',
       category: 'Fantasy',
@@ -13,6 +14,7 @@ const data = {
       description: 'high quality shirt',
     },
     {
+      _id: '2',
       name: 'Lizard',
       slug: 'lizard',
       category: 'animals',
@@ -25,6 +27,7 @@ const data = {
       description: 'high quality product',
     },
     {
+      _id: '3',
       name: 'Octopus',
       slug: 'octopus',
       category: 'animals',
@@ -37,6 +40,7 @@ const data = {
       description: 'high quality pants',
     },
     {
+      _id: '4',
       name: 'Crocodile',
       slug: 'crocodile',
       category: 'animals',
