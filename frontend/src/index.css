@@ -5,11 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #5cdb95;
+  background-color: #f6f6f2;
 }
 
 .main-title {
-  color: #05386b;
+  color: #ffffff;
 }
 
 .site-container {
@@ -22,8 +22,17 @@ main {
 
 .btn-primary,
 .btn-outline-primary {
-  background-color: #20c997;
+  background-color: #6daffe;
   color: #000000;
+}
+
+.hamburger-menu {
+  background-color: #437fc7;
+  border: 0px #6daffe solid;
+}
+
+.subtitle {
+  color: #437fc7;
 }
 
 .products {
@@ -32,7 +41,11 @@ main {
 }
 
 .rating span {
-  color: #20c997;
+  color: #ffb703;
+}
+
+a {
+  text-decoration: none;
 }
 
 .product {
@@ -62,11 +75,11 @@ main {
 
 .checkout-steps > div {
   border-bottom: 0.2rem solid #a0a0a0;
-  color: #a0a0a0;
+  color: #437fc7;
 }
 .checkout-steps > div.active {
-  border-bottom: 0.2rem solid #f08000;
-  color: #f08000;
+  border-bottom: 0.2rem solid #437fc7;
+  color: #437fc7;
 }
 /* sidebar */
 .navbar-brand {
@@ -75,7 +88,7 @@ main {
 }
 
 .color-nav {
-  background-color: #379683;
+  background-color: #437fc7;
 }
 
 .side-navbar {
@@ -83,7 +96,7 @@ main {
   height: 100%;
   position: absolute;
   left: -300px;
-  background-color: #100901;
+  background-color: #437fc7;
   transition: 0.5s;
 }
 

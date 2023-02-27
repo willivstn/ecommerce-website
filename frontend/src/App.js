@@ -79,10 +79,10 @@ function App() {
           <Navbar className="color-nav" variant="dark" expand="lg">
             <Container>
               <Button
-                variant="dark"
+                className="hamburger-menu"
                 onClick={() => setSidebarIsOpen(!sidebarIsOpen)}
               >
-                <i className="fas fa-bars"></i>
+                <i className="navbar-toggler-icon"></i>
               </Button>
 
               <LinkContainer to="/">
@@ -280,7 +280,7 @@ function App() {
           </Container>
         </main>
         <footer>
-          <div className="text-center">All rights reserved</div>
+          <div className="text-center">All rights reserved - @willi_vstn</div>
         </footer>
       </div>
     </BrowserRouter>

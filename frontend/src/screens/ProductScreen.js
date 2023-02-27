@@ -138,7 +138,7 @@ function ProductScreen() {
               <Helmet>
                 <title>{product.name}</title>
               </Helmet>
-              <h1>{product.name}</h1>
+              <h1 className="subtitle">{product.name}</h1>
             </ListGroup.Item>
             <ListGroup.Item>
               <Rating
@@ -207,7 +207,9 @@ function ProductScreen() {
         </Col>
       </Row>
       <div className="my-3">
-        <h2 ref={reviewsRef}>Reviews</h2>
+        <h2 className="subtitle" ref={reviewsRef}>
+          Reviews
+        </h2>
         <div className="mb-3">
           {product.reviews.length === 0 && (
             <MessageBox>There is no review</MessageBox>
@@ -226,9 +228,9 @@ function ProductScreen() {
         <div className="my-3">
           {userInfo ? (
             <form onSubmit={submitHandler}>
-              <h2>Write a customer review</h2>
+              <h2 className="subtitle">Write a customer review</h2>
               <Form.Group className="mb-3" controlId="rating">
-                <Form.Label>Rating</Form.Label>
+                <Form.Label className="subtitle">Rating</Form.Label>
                 <Form.Select
                   aria-label="Rating"
                   value={rating}

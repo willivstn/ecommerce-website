@@ -47,7 +47,7 @@ function HomeScreen() {
       <Helmet>
         <title>J & J - 3d Printing Solutions</title>
       </Helmet>
-      <h1 className="main-title">Featured Products</h1>
+      <h1 className="subtitle">Featured Products</h1>
       <div className="products">
         {loading ? (
           <LoadingBox />
