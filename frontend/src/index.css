@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f6f6f2;
+  background-color: #ffffff;
 }
 
 .main-title {
@@ -33,6 +33,10 @@ main {
 
 .subtitle {
   color: #437fc7;
+}
+
+.side-bar-subtitle {
+  color: #ffffff;
 }
 
 .products {
@@ -98,6 +102,7 @@ a {
   left: -300px;
   background-color: #437fc7;
   transition: 0.5s;
+  border: 3px #6daffe solid;
 }
 
 .site-container {
